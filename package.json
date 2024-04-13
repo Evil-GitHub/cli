@@ -1,0 +1,39 @@
+{
+  "name": "@poppy_evil/design-pro",
+  "version": "0.0.1",
+  "description": "A cli to create awesome scaffolder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Evil",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "design-pro": "bin/index.js",
+    "dp": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "degit": "^2.8.4",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evil-GitHub/evil-scaffolder-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Evil-GitHub/evil-scaffolder-cli/issues"
+  },
+  "homepage": "https://github.com/Evil-GitHub/evil-scaffolder-cli#readme"
+}
